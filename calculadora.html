@@ -13,7 +13,7 @@
         <form action="#">
           <fieldset class="container">
             <legend>Calculadora básica</legend>
-            <div class="resultado"><p>0</p></div>
+            <div class="resultado"><p id="resultado">0</p></div>
             <div class="numeros">
               <div>
                 <label for="num1">Primer número</label>
@@ -27,12 +27,12 @@
 
             <div class="operacion">
               <div>
-                <input type="radio" name="operador" id="suma" />
-                <label for="suma">Sumar</label>
+                <input type="radio" name="operador" id="sumar" />
+                <label for="sumar">Sumar</label>
               </div>
               <div>
-                <input type="radio" name="operador" id="resta" />
-                <label for="resta">Restar</label>
+                <input type="radio" name="operador" id="restar" />
+                <label for="restar">Restar</label>
               </div>
               <div>
                 <input type="radio" name="operador" id="multiplicar" />
@@ -52,5 +52,6 @@
       </section>
     </main>
     <script src="js/calculadora.js"></script>
+    
   </body>
 </html>

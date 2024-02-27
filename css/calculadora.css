@@ -42,7 +42,13 @@ fieldset {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5rem;
+    flex-wrap: wrap;
 }
+
+.operacion > div { 
+    width: 48%;
+}
+
 
 .botones {
     display: flex;
