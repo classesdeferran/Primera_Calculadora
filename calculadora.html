@@ -18,16 +18,18 @@
               <div>
                 <label for="num1">Primer número</label>
                 <input type="text" name="num1" id="num1" />
+                <p id="error1"></p>
               </div>
               <div>
                 <label for="num2">Segundo número</label>
                 <input type="text" name="num2" id="num2" />
+                <p id="error2"></p>
               </div>
             </div>
 
             <div class="operacion">
               <div>
-                <input type="radio" name="operador" id="sumar" />
+                <input type="radio" name="operador" id="sumar" checked/>
                 <label for="sumar">Sumar</label>
               </div>
               <div>
@@ -45,7 +47,7 @@
             </div>
             <div class="botones">
               <button type="button" onclick="calcular()">Calcular</button>
-              <button type="reset">Borrar</button>
+              <button type="reset" onclick="limpiar()">Borrar</button>
             </div>
           </fieldset>
         </form>
